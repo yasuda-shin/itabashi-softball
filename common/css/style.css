@@ -36,3 +36,15 @@
   padding: 8px 0;
   text-align: center;
 }
+
+.icon-mail {
+  padding: 0 0 0 24px;
+  background: url(../images/icon_mail.png) left center no-repeat;
+  background-size: 16px;
+}
+
+.icon-open-in-new {
+  padding: 0 0 0 24px;
+  background: url(../images/icon_open_in_new.png) left center no-repeat;
+  background-size: 16px;
+}
