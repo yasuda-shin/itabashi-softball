@@ -1,3 +1,8 @@
+/* Utilities */
+.w-10 {
+  width: 10% !important;
+}
+
 /* Layout */
 .navbar {
   border-bottom: 2px solid #035259;
