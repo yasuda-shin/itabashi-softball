@@ -3,6 +3,10 @@
   width: 10% !important;
 }
 
+.vertical-align-2 {
+  vertical-align: 2px;
+}
+
 /* Layout */
 .navbar {
   border-bottom: 2px solid #035259;
@@ -126,4 +130,8 @@
   padding: 0 0 0 24px;
   background: url(../images/icon_open_in_new.png) left center no-repeat;
   background-size: 16px;
+}
+
+.ekko-lightbox-nav-overlay a {
+ color: #035259; 
 }
