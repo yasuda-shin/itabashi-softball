@@ -58,20 +58,18 @@
           <div class="card mt-3">
             <ul class="list-group list-group-flush">
               <li class="list-group-item p-0">
-                <a class="card-link d-block position-relative p-2 pr-5" href="images/summary_01.jpg" data-toggle="lightbox" data-gallery="photo-gallery">
-                  <span class="text-dark align-middle">春季大会 男子 開催要項</span>
+                <a class="card-link d-block position-relative p-2 pr-5" href="images/summary_01.jpg" data-toggle="lightbox" data-gallery="photo-gallery"  <span class="text-dark align-middle">春季大会 男子 開催要項</span>
                   <i class="list-group-icon icon-arrow-right" aria-hidden="true"></i>
                 </a>
               </li>
               <li class="list-group-item p-0">
-                <a class="card-link d-block position-relative p-2 pr-5" href="images/summary_02.jpg" data-toggle="lightbox" data-gallery="photo-gallery">
-                  <span class="text-dark align-middle">春季大会 男子 組み合わせ</span>
+                <a class="card-link d-block position-relative p-2 pr-5" href="images/summary_02.jpg" data-toggle="lightbox" data-gallery="photdata-gallery="photo-gallery"t-dark align-middle">春季大会 男子 組み合わせ</span>
                   <i class="list-group-icon icon-arrow-right" aria-hidden="true"></i>
                 </a>
               </li>
               <li class="list-group-item p-0">
                 <a class="card-link d-block position-relative p-2 pr-5" href="images/summary_03.jpg" data-toggle="lightbox" data-gallery="photo-gallery">
-                  <span class="text-dark align-middle">春季大会 女子 開催要項と組み合わせ</span>
+      data-gallery="photo-gallery"e">春季大会 女子 開催要項と組み合わせ</span>
                   <i class="list-group-icon icon-arrow-right" aria-hidden="true"></i>
                 </a>
               </li>
@@ -782,10 +780,12 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
-    <script>
-      $(document).on("click", '[data-toggle="lightbox"]', function (event) {
-        event.preventDefault();
-        $(this).ekkoLightbox();
+    <script type="text/javascript">
+      $(document).ready(function ($) {
+        $(document).on("click", '[data-toggle="lightbox"]', function (event) {
+          event.preventDefault();
+          $(this).ekkoLightbox();
+        });
       });
     </script>
   </body>
