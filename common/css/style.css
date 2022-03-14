@@ -3,6 +3,10 @@
   width: 10% !important;
 }
 
+.w-35 {
+  width: 35% !important;
+}
+
 .vertical-align-2 {
   vertical-align: 2px;
 }
@@ -79,6 +83,10 @@
 }
 
 .tournament-table th {
+  width: 30%;
+}
+
+.tournament-table th.is- {
   width: 30%;
 }
 
