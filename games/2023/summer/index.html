@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>2021年度大会結果｜板橋区ソフトボール連盟</title>
+    <title>2023年 夏季大会｜板橋区ソフトボール連盟</title>
     <meta name="keywords" content="板橋区ソフトボール連盟,板橋,板橋区,ソフトボール,ソフト,スポーツ" />
     <meta name="description" content="板橋区ソフトボール連盟の公式ページです。大会日程・結果、球場地図、各種行事、加盟案内など。" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
-    <link rel="stylesheet" href="../common/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
+    <link rel="stylesheet" href="../../../common/css/style.css" />
   </head>
   <body>
     <header>
@@ -52,37 +53,30 @@
     <div class="container mt-4">
       <div class="row mb-4">
         <main class="col-md-8 mb-4 themed-grid-col">
-          <h1 class="h4">大会結果</h1>
-          <h2 class="h5 mt-4">2023年度</h1>
-          <p class="mt-2">
-            <a class="icon-arrow-right" href="/games/2023/spring/">春季大会</a>
-          </p>
-          <p class="mt-2">
-            <a class="icon-arrow-right" href="/games/2023/summer/">夏季大会</a>
-          </p>
-          <h2 class="h5 mt-4">2022年度</h1>
-          <p class="mt-2">
-            <a class="icon-arrow-right" href="/games/2022/spring/">春季大会</a>
-          </p>
-          <p>
-            <a class="icon-arrow-right" href="/games/2022/summer/">夏季大会</a>
-          </p>
-          <p>
-            <a class="icon-arrow-right" href="/games/2022/residents/">区民体育大会</a>
-          </p>
-          <p class="mt-2">
-            <a class="icon-arrow-right" href="/games/2022/autumn/">秋季大会</a>
-          </p>
-          <h2 class="h5 mt-4">2021年度</h1>
-          <p class="mt-2">
-            <a class="icon-arrow-right" href="/games/2021/spring/">春季大会</a>
-          </p>
-          <p>
-            <a class="icon-arrow-right" href="/games/2021/summer/">夏季大会</a>
-          </p>
-          <p>
-            <a class="icon-arrow-right" href="/games/2021/autumn/">秋季大会</a>
-          </p>
+          <h1 class="h4">2023年 夏季大会</h1>
+          <h2 class="h5 mt-4">開催要項と組み合わせ</h2>
+          <div class="card mt-3">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item p-0">
+                <a class="card-link d-block position-relative p-2 pr-5" href="images/summary_01.jpg" data-toggle="lightbox" data-gallery="photo-gallery">
+                  <span class="text-dark align-middle">夏季大会 男子 開催要項</span>
+                  <i class="list-group-icon icon-arrow-right" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-group-item p-0">
+                <a class="card-link d-block position-relative p-2 pr-5" href="images/summary_02.jpg" data-toggle="lightbox" data-gallery="photo-gallery">
+                  <span class="text-dark align-middle">夏季大会 男子 組み合わせ</span>
+                  <i class="list-group-icon icon-arrow-right" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-group-item p-0">
+                <a class="card-link d-block position-relative p-2 pr-5" href="images/summary_03.jpg" data-toggle="lightbox" data-gallery="photo-gallery">
+                  <span class="text-dark align-middle">夏季大会 女子 開催要項と組み合わせ</span>
+                  <i class="list-group-icon icon-arrow-right" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
         </main>
         <aside class="col-md-4 themed-grid-col">
           <a
@@ -112,5 +106,14 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function ($) {
+        $(document).on("click", '[data-toggle="lightbox"]', function (event) {
+          event.preventDefault();
+          $(this).ekkoLightbox();
+        });
+      });
+    </script>
   </body>
 </html>
